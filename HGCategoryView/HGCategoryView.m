@@ -370,6 +370,7 @@ const CGFloat HGCategoryViewDefaultHeight = 41;
     _titles = titles.copy;
     [self.collectionView reloadData];
     [self updateCollectionViewContentInset];
+    [self updateVernierLocation];
 }
 
 - (void)setAlignment:(HGCategoryViewAlignment)alignment {
